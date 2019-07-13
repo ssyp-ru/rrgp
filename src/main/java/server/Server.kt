@@ -1,4 +1,4 @@
-package websocket
+package server
 
 import engine.GameAPI
 import io.javalin.Javalin
@@ -19,7 +19,7 @@ class Server(gameAPI: GameAPI, private val tick: Long = 16) {
     init {
         val port = System.getenv()["PORT"] ?: "8080"
         Javalin.create {
-            it.addStaticFiles("../Client/", Location.EXTERNAL)
+            it.addStaticFiles("./web/", Location.EXTERNAL)
         }.apply {
             ws("/game") { ws ->
                 ws.onConnect {

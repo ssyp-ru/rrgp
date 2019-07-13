@@ -1,4 +1,4 @@
-package websocket
+package server
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

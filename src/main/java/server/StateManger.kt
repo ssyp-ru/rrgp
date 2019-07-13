@@ -1,7 +1,6 @@
-package websocket
+package server
 
 import engine.DataTransferEntity
-import engine.DataTransferEntityType
 import io.javalin.websocket.WsContext
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

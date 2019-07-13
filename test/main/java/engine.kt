@@ -1,8 +1,7 @@
-import org.junit.jupiter.api.Assertions.assertEquals
+import engine.Island
+import engine.Point
+import engine.Vector2f
 import org.junit.jupiter.api.Assertions.assertTrue
-import java.*
-//import oop.execute
-//import oop.value
 import org.junit.jupiter.api.Test
 import kotlin.math.abs
 

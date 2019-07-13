@@ -1,4 +1,4 @@
-package websocket
+package server
 
 import engine.DataTransferEntity
 import engine.GameAPI
